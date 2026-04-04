@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+ROOT="$(CDPATH= cd -- "$(dirname "$0")" && pwd)"
+CLI="$ROOT/scx-cli/dist/cli.js"
+if [ ! -f "$CLI" ]; then
+  echo "[scx] Build the CLI first: cd \"$ROOT/scx-cli\" && npm install && npm run build" >&2
+  exit 1
+fi
+exec node "$CLI" "$@"
