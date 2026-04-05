@@ -1,5 +1,7 @@
 # Sitecore framework workspace
 
+This `CLI` works as a sitecore marketplace application generator. This wrap the main sitecore marketplace starter repo and on top of that this is adding addtional configurations based on user preferences.
+
 ## `scx` — Marketplace app scaffolder
 
 The CLI lives in [`scx-cli/`](./scx-cli/). Full documentation: [`scx-cli/README.md`](./scx-cli/README.md).
