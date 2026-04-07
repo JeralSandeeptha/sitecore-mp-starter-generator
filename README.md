@@ -1,4 +1,4 @@
-# Sitecore framework workspace
+# Sitecore Marketplace Starter Generator
 
 This `CLI` works as a sitecore marketplace application generator. This wrap the main sitecore marketplace starter repo and on top of that this is adding addtional configurations based on user preferences.
 
