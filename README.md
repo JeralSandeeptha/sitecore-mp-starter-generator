@@ -28,6 +28,8 @@ The CLI lives in [`scx-cli/`](./scx-cli/). Full documentation: [`scx-cli/README.
 
 ### Quick start (macOS / Linux / Git Bash)
 
+Use cmd for your relavant platforms
+
 ```bash
 cd scx-cli && npm install && npm run build && cd ..
 chmod +x scx
